@@ -1,0 +1,202 @@
+T61F0 000:145.034   SEGGER J-Link V6.88b Log File
+T61F0 000:145.108   DLL Compiled: Nov 27 2020 15:44:11
+T61F0 000:145.111   Logging started @ 2023-12-23 11:31
+T61F0 000:145.113 - 145.115ms
+T61F0 000:145.119 JLINK_SetWarnOutHandler(...)
+T61F0 000:145.123 - 0.005ms
+T61F0 000:145.127 JLINK_OpenEx(...)
+T61F0 000:146.311   Firmware: J-Link V9 compiled Dec 13 2019 11:14:50
+T61F0 000:146.430   Decompressing FW timestamp took 97 us
+T61F0 000:152.359   Hardware: V9.20
+T61F0 000:152.375   S/N: 4294967295
+T61F0 000:152.379   OEM: SEGGER
+T61F0 000:152.383   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T61F0 000:153.101   TELNET listener socket opened on port 19021
+T61F0 000:153.169   WEBSRV Starting webserver
+T61F0 000:153.256   WEBSRV Webserver running on local port 19080
+T61F0 000:153.261 - 8.135ms returns "O.K."
+T61F0 000:153.269 JLINK_GetEmuCaps()
+T61F0 000:153.272 - 0.004ms returns 0xB9FF7BBF
+T61F0 000:153.277 JLINK_TIF_GetAvailable(...)
+T61F0 000:153.386 - 0.115ms
+T61F0 000:153.398 JLINK_SetErrorOutHandler(...)
+T61F0 000:153.401 - 0.004ms
+T61F0 000:153.413 JLINK_ExecCommand("ProjectFile = "F:\项目\宏吉科技\足底压力项目\Software\下位机\升级版本\Medtrack_YLDB\V2\Medtrack_YLDB\MDK-ARM\JLinkSettings.ini"", ...). 
+T61F0 000:158.648   Ref file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T61F0 000:158.688   XML referenced by ref file: C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml
+T61F0 000:159.060   C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml evaluated successfully.
+T61F0 000:172.593   Device "STM32H723ZEI" selected.
+T61F0 000:172.833 - 19.424ms returns 0x00
+T61F0 000:172.851 JLINK_ExecCommand("Device = STM32F723ZETx", ...). 
+T61F0 000:176.115   Device "STM32H723ZEI" selected.
+T61F0 000:176.244 - 3.391ms returns 0x00
+T61F0 000:176.254 JLINK_GetHardwareVersion()
+T61F0 000:176.257 - 0.004ms returns 92000
+T61F0 000:176.263 JLINK_GetDLLVersion()
+T61F0 000:176.266 - 0.003ms returns 68802
+T61F0 000:176.269 JLINK_GetOEMString(...)
+T61F0 000:176.272 JLINK_GetFirmwareString(...)
+T61F0 000:176.275 - 0.003ms
+T61F0 000:176.280 JLINK_GetDLLVersion()
+T61F0 000:176.282 - 0.003ms returns 68802
+T61F0 000:176.285 JLINK_GetCompileDateTime()
+T61F0 000:176.288 - 0.003ms
+T61F0 000:176.292 JLINK_GetFirmwareString(...)
+T61F0 000:176.294 - 0.003ms
+T61F0 000:176.298 JLINK_GetHardwareVersion()
+T61F0 000:176.300 - 0.003ms returns 92000
+T61F0 000:176.304 JLINK_GetSN()
+T61F0 000:176.307 - 0.004ms returns -1
+T61F0 000:176.310 JLINK_GetOEMString(...)
+T61F0 000:176.315 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T61F0 000:176.920 - 0.611ms returns 0x00
+T61F0 000:176.931 JLINK_HasError()
+T61F0 000:176.940 JLINK_SetSpeed(1000)
+T61F0 000:176.990 - 0.051ms
+T61F0 000:177.218 JLINK_HasError()
+T61F0 000:177.223 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T61F0 000:177.226 - 0.004ms returns JLINKARM_RESET_TYPE_NORMAL
+T61F0 000:177.230 JLINK_Reset()
+T61F0 000:178.519   Found SW-DP with ID 0x5BA02477
+T61F0 000:198.352   Active read protected STM32 device detected.
+This could cause problems during flash download.
+Note: Unsecuring will trigger a mass erase of the internal flash.
+T61F0 000:198.372   Executing default behavior previously saved in the registry.
+T61F0 000:198.378   Device will be unsecured now.
+T61F0 000:712.299   
+  ***** Error: 
+T61F0 000:712.323   STM32 (connect): Error while checking CPU state.
+T61F0 000:712.338   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T61F0 000:765.156   Found SW-DP with ID 0x5BA02477
+T61F0 000:832.525   Active read protected STM32 device detected.
+This could cause problems during flash download.
+Note: Unsecuring will trigger a mass erase of the internal flash.
+T61F0 000:832.558   Executing default behavior previously saved in the registry.
+T61F0 000:832.575   Device will be unsecured now.
+T61F0 001:350.051   
+  ***** Error: 
+T61F0 001:350.065   STM32 (connect): Error while checking CPU state.
+T61F0 001:350.069   
+  ***** Error: 
+T61F0 001:350.073   STM32: Connecting to CPU via connect under reset failed.
+T61F0 001:455.828   Found SW-DP with ID 0x5BA02477
+T61F0 001:467.545   Active read protected STM32 device detected.
+This could cause problems during flash download.
+Note: Unsecuring will trigger a mass erase of the internal flash.
+T61F0 001:467.563   Executing default behavior previously saved in the registry.
+T61F0 001:467.574   Device will be unsecured now.
+T61F0 001:985.579   
+  ***** Error: 
+T61F0 001:985.602   STM32 (connect): Error while checking CPU state.
+T61F0 001:985.619   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T61F0 002:037.358   Found SW-DP with ID 0x5BA02477
+T61F0 002:102.231   Active read protected STM32 device detected.
+This could cause problems during flash download.
+Note: Unsecuring will trigger a mass erase of the internal flash.
+T61F0 002:102.245   Executing default behavior previously saved in the registry.
+T61F0 002:102.251   Device will be unsecured now.
+T61F0 002:616.315   
+  ***** Error: 
+T61F0 002:616.335   STM32 (connect): Error while checking CPU state.
+T61F0 002:616.342   
+  ***** Error: 
+T61F0 002:616.347   STM32: Connecting to CPU via connect under reset failed.
+T61F0 002:667.859 - 2490.680ms
+T61F0 002:667.961 JLINK_GetId()
+T61F0 002:670.057   Found SW-DP with ID 0x5BA02477
+T61F0 002:682.265   Active read protected STM32 device detected.
+This could cause problems during flash download.
+Note: Unsecuring will trigger a mass erase of the internal flash.
+T61F0 002:682.284   Executing default behavior previously saved in the registry.
+T61F0 002:682.294   Device will be unsecured now.
+T61F0 003:199.417   
+  ***** Error: 
+T61F0 003:199.431   STM32 (connect): Error while checking CPU state.
+T61F0 003:199.441   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T61F0 003:250.671   Found SW-DP with ID 0x5BA02477
+T61F0 003:323.772   Active read protected STM32 device detected.
+This could cause problems during flash download.
+Note: Unsecuring will trigger a mass erase of the internal flash.
+T61F0 003:323.795   Executing default behavior previously saved in the registry.
+T61F0 003:323.805   Device will be unsecured now.
+T61F0 003:839.783   
+  ***** Error: 
+T61F0 003:839.809   STM32 (connect): Error while checking CPU state.
+T61F0 003:839.814   
+  ***** Error: 
+T61F0 003:839.817   STM32: Connecting to CPU via connect under reset failed.
+T61F0 003:944.282   Found SW-DP with ID 0x5BA02477
+T61F0 003:958.864   Active read protected STM32 device detected.
+This could cause problems during flash download.
+Note: Unsecuring will trigger a mass erase of the internal flash.
+T61F0 003:958.902   Executing default behavior previously saved in the registry.
+T61F0 003:958.933   Device will be unsecured now.
+T61F0 004:478.184   
+  ***** Error: 
+T61F0 004:478.202   STM32 (connect): Error while checking CPU state.
+T61F0 004:478.214   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T61F0 004:530.463   Found SW-DP with ID 0x5BA02477
+T61F0 004:601.401   Active read protected STM32 device detected.
+This could cause problems during flash download.
+Note: Unsecuring will trigger a mass erase of the internal flash.
+T61F0 004:601.444   Executing default behavior previously saved in the registry.
+T61F0 004:601.474   Device will be unsecured now.
+T61F0 005:120.474   
+  ***** Error: 
+T61F0 005:120.497   STM32 (connect): Error while checking CPU state.
+T61F0 005:120.501   
+  ***** Error: 
+T61F0 005:120.505   STM32: Connecting to CPU via connect under reset failed.
+T61F0 005:171.064 - 2503.121ms returns 0x00000000
+T61F0 005:171.108 JLINK_GetId()
+T61F0 005:172.405   Found SW-DP with ID 0x5BA02477
+T61F0 005:183.918   Active read protected STM32 device detected.
+This could cause problems during flash download.
+Note: Unsecuring will trigger a mass erase of the internal flash.
+T61F0 005:183.926   Executing default behavior previously saved in the registry.
+T61F0 005:183.932   Device will be unsecured now.
+T61F0 005:699.380   
+  ***** Error: 
+T61F0 005:699.400   STM32 (connect): Error while checking CPU state.
+T61F0 005:699.412   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T61F0 005:752.424   Found SW-DP with ID 0x5BA02477
+T61F0 005:819.232   Active read protected STM32 device detected.
+This could cause problems during flash download.
+Note: Unsecuring will trigger a mass erase of the internal flash.
+T61F0 005:819.252   Executing default behavior previously saved in the registry.
+T61F0 005:819.262   Device will be unsecured now.
+T61F0 006:332.638   
+  ***** Error: 
+T61F0 006:332.656   STM32 (connect): Error while checking CPU state.
+T61F0 006:332.660   
+  ***** Error: 
+T61F0 006:332.664   STM32: Connecting to CPU via connect under reset failed.
+T61F0 006:436.929   Found SW-DP with ID 0x5BA02477
+T61F0 006:445.621   Active read protected STM32 device detected.
+This could cause problems during flash download.
+Note: Unsecuring will trigger a mass erase of the internal flash.
+T61F0 006:445.631   Executing default behavior previously saved in the registry.
+T61F0 006:445.638   Device will be unsecured now.
+T61F0 006:962.880   
+  ***** Error: 
+T61F0 006:962.910   STM32 (connect): Error while checking CPU state.
+T61F0 006:962.928   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T61F0 007:015.679   Found SW-DP with ID 0x5BA02477
+T61F0 007:082.816   Active read protected STM32 device detected.
+This could cause problems during flash download.
+Note: Unsecuring will trigger a mass erase of the internal flash.
+T61F0 007:082.834   Executing default behavior previously saved in the registry.
+T61F0 007:082.844   Device will be unsecured now.
+T61F0 007:597.530   
+  ***** Error: 
+T61F0 007:597.550   STM32 (connect): Error while checking CPU state.
+T61F0 007:597.555   
+  ***** Error: 
+T61F0 007:597.559   STM32: Connecting to CPU via connect under reset failed.
+T61F0 007:648.265 - 2477.230ms returns 0x00000000
+T61F0 007:653.703 JLINK_GetFirmwareString(...)
+T61F0 007:653.716 - 0.014ms
+T61F0 2730:037.222 JLINK_Close()
+T61F0 2730:050.138 - 12.940ms
+T61F0 2730:050.167   
+T61F0 2730:050.171   Closed
